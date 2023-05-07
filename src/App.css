@@ -27,6 +27,19 @@
 .App-link {
   color: #61dafb;
 }
+.nasa-photo-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+img{
+  max-width: 60%;
+  object-fit: cover;
+}
+.explanation{
+  max-width: 50%;
+}
 
 @keyframes App-logo-spin {
   from {
